@@ -10,8 +10,17 @@
   <body>
 
     <section class="bg-primary fixed-top">
-        <div class="container py-2">
-            <h4 class="text-center text-white">Screto Gabut</h4>
+        <div class="container d-flex">
+            <ul class="navbar-nav me-auto ">
+                <li class="nav-item">
+                  <h4 class="nav-link text-white" >Screto Gabut</h4>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mt-2">
+                <li class="nav-item">
+                  <a class="text-white" href="{{ route('index') }}">Daftar</a>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -24,6 +33,9 @@
 <style>
     body{
         background-color: rgb(223, 223, 223) !important;
+    }
+    img[alt="www.000webhost.com"]{
+     display:none;
     }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
