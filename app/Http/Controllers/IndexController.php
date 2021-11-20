@@ -78,7 +78,7 @@ class IndexController extends Controller
             'komen_id' => $komenid,
         ]);
 
-        return back();
+        return back()->with('pesan', 'and');
     }
 
     public function destroy($id)
